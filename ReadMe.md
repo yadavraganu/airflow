@@ -31,7 +31,7 @@ with DAG(
     # Define task dependencies
     task1 >> task2 >> task3
 ```
-## Using the `@dag` Decorator
+### Using the `@dag` Decorator
 ```python
 from airflow.decorators import dag
 from airflow.operators.bash import BashOperator
